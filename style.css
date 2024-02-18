@@ -1,0 +1,119 @@
+@font-face{
+    font-family:"Roboto";
+    src: url(Roboto-Regular.ttf);
+}
+
+body{
+    font-family: "Roboto";
+}
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+   font-size: 24px;
+   color: #f9faf8;
+}
+
+.sum{
+    font-size: 18px;
+    color: #e5e7eb; 
+    margin-bottom: 30px;
+}
+
+.header-links{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+/*if u want to style link, use type a*/
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.section-1{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+
+}
+.section-1 img{
+   height: 120px;
+   width: auto;
+   margin-left: auto;
+}
+
+button{
+    border-radius: 8px;
+    width:90px;
+    height:30px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.img-txt-group{
+    display: flex;
+    gap: 52px;
+}
+
+.section-2 img{ 
+    height: 100px;
+    width:auto;
+}
+
+.img-txt-pair{
+    text-align: center;
+}
+.section-2{
+    padding: 40px 120px;
+    margin-bottom: 60px;
+}
+
+.section-3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 80px 200px;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.quoter{
+    font-weight: 700;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
